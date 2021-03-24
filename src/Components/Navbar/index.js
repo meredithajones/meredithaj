@@ -1,4 +1,5 @@
 import React from 'react'
+import {Nav, NavbarContainer, NavLogo} from './NavbarElements'
 
 const Navbar = () => {
     return (
@@ -6,7 +7,7 @@ const Navbar = () => {
           <Nav>
               <NavbarContainer>
                   <NavLogo>
-                      
+                      That Link
                   </NavLogo>
               </NavbarContainer>
 
