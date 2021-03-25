@@ -25,11 +25,10 @@ const Navbar = () => {
                           <NavLinks to="services">Services</NavLinks>
                       </NavItem>
                       <NavItem>
-                          <NavLinks to="about">About</NavLinks>
+                          <NavLinks to="contact">Contact</NavLinks>
                       </NavItem>
                   </NavMenu>
               </NavbarContainer>
-
           </Nav>
             
         </>
