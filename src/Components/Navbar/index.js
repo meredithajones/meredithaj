@@ -18,6 +18,15 @@ const Navbar = () => {
                       <NavItem>
                           <NavLinks to="about">About</NavLinks>
                       </NavItem>
+                      <NavItem>
+                          <NavLinks to="discover">Discover</NavLinks>
+                      </NavItem>
+                      <NavItem>
+                          <NavLinks to="services">Services</NavLinks>
+                      </NavItem>
+                      <NavItem>
+                          <NavLinks to="about">About</NavLinks>
+                      </NavItem>
                   </NavMenu>
               </NavbarContainer>
 
