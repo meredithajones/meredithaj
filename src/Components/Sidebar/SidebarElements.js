@@ -16,4 +16,17 @@ export const SidebarContainer = styled.aside`
     opacity: ${({ isOpen}) => (isOpen ? '100%' : '0')};
     top: ${({ isOpen}) => (isOpen ? '0' : '-100%')};
 `
+export const CloseIcon = styled(FaTimes)`
+    color #fff
+`
+export const Icon = styled.div`
+    position: absolute;
+    top: absolute;
+    right: 1.5rem;
+    background: transparent;
+    font-size: 2rem;
+    cursor: pointer;
+    outline: none;
+
+`
 
