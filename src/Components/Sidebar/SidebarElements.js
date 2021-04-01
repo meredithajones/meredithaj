@@ -1,14 +1,14 @@
-import styled from 'styled-components'
+import styled from 'styled-components';
 import {Link as LinkS} from 'react-scroll';
-import {Link as LinkR} from 'react-router-dom'
-import {FaTimes} from 'react-icons/fa'
+import {Link as LinkR} from 'react-router-dom';
+import {FaTimes} from 'react-icons/fa';
 
 export const SidebarContainer = styled.aside`
     position: fixed;
     z-index: 999;
     width: 100%;
     height: 100%;
-    background: 0d0d0d;
+    background: #0d0d0d;
     display: grid;
     align-items: center;
     top: 0;
@@ -23,8 +23,8 @@ export const CloseIcon = styled(FaTimes)`
 `
 export const Icon = styled.div`
     position: absolute;
-    top: absolute;
-    right: 1.1rem;
+    top: 1.2rem;
+    right: 1.2rem;
     background: 5F9EA0;
     font-size: 2rem;
     cursor: pointer;
