@@ -1,11 +1,14 @@
 import React from 'react'
 
-const HeroElements = () => {
+const HeroSection = () => {
     return (
-        <div>
+        <HeroContainer id ="home">
+            <HeroBg>
+                
+            </HeroBg>
             
-        </div>
+        </HeroContainer>
     )
 }
 
-export default HeroElements
+export default HeroSection
