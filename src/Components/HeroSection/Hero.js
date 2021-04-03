@@ -1,7 +1,7 @@
 import React, {useState} from 'react'
 import { HeroContainer, HeroBg, HeroContent, HeroH1, HeroP, 
 HeroBtnWrapper, ArrowForward, ArrowRight} from './HeroElements'
-
+import { Button } from '../ButtonElements'
 
 const HeroSection = () => {
     const [hover, setHover] =useState(false) 
@@ -14,17 +14,19 @@ const HeroSection = () => {
         <HeroContainer id ="home">
             <HeroBg>
                 <HeroContent>
-                    <HeroH1>Hi! I'm Meredith, Developer & UX Designer</HeroH1>
+                    <HeroH1>Hi! I'm Meredith, Developer with an eye for UX Design</HeroH1>
                         <HeroP>
-                          I create online spaces to help solve problems!  
+                          I love solving problems with technology!  
                         </HeroP>
                         <HeroBtnWrapper></HeroBtnWrapper>
-                        <Button to="signup" onMouseEnter= {onHover}
-                        onMouseLeave= {onHover}> 
+                        <Button to="signup" 
+                        onMouseEnter= {onHover}
+                        onMouseLeave= {onHover}
+                        primary= 'true'
+                        dark = 'true'
+                        > 
                             Get Started {hover ? <ArrowForward /> : <ArrowRight />}
                         </Button>
-                    
-
                 </HeroContent>
             </HeroBg>
             
