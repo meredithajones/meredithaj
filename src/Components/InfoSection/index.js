@@ -12,7 +12,7 @@ import {
   SubTitle,
   BtnWrap,
   Img,
-  ImgWrap,
+  ImgWrap
 } from "./InfoElements";
 
 const InfoSection = ({

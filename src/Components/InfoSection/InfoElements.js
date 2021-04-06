@@ -8,7 +8,7 @@ export const InfoContainer = styled.div`
     @media screen and (max-width: 768px) {
         padding: 100px 0;
     }
-`
+`;
 
 export const InfoWrapper = styled.div`
     display: grid;
@@ -65,7 +65,7 @@ export const InfoRow = styled.div `
         font-size: 48px;
         line-height: 1.1;
         font-weight: 600;
-        color: ${({ lightText}) => (lightText ? 'red' : '010606')
+        color: ${({lightText}) => (lightText ? 'red' : '#010606')
     };
 
     @media screen and (max-width: 480px) {
