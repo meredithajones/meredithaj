@@ -72,7 +72,7 @@ export const InfoRow = styled.div `
         font-size: 32px;
     }
     `
-    export const Subtitle = styled.p`
+    export const SubTitle = styled.p`
         max-width: 440px;
         margin-bottom: 35px;
         font-size: 18px;
@@ -93,4 +93,4 @@ export const InfoRow = styled.div `
         width: 100%;
         margin: 0 0 10px 0;
         padding-right: 0;
-    `
+    `;
