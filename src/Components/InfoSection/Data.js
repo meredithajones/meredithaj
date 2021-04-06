@@ -43,7 +43,7 @@ export const homeObjThree = {
     description: 'This is describing the app', 
     buttonLabel: 'Get Started',
     imgStart: true, 
-    img: require('../../Images/background.jpg'),
+    img: require('../../Images/demo.svg'),
     alt: 'Description',
     dark: true, 
     primary: true,
