@@ -6,24 +6,24 @@ import { InfoContainer, InfoWrapper, InfoRow, Column1, Column2, TextWrapper,
 const InfoSection = () => {
     return (
         <>
-        <InfoContainer >
+        <InfoContainer lightBg={lightBg} id={id} >
             <InfoWrapper>
-                <InfoRow>
+                <InfoRow imgStart={imgStart}>
                     <Column1>
                     <TextWrapper>
                         <TopLine>
-                            TopLine
+                            {topLine}
                         </TopLine>
-                        <Heading>Heading</Heading>
-                        <SubTitle>SubTitle</SubTitle>
+                        <Heading lightText={lightText}>{headline}</Heading>
+                        <SubTitle darkText={darkText}>{description}</SubTitle>
                         <BtnWrap>
-                            <Button to="home" />
+                            <Button to="home" >{buttonLabel}</Button>
                         </BtnWrap>
                     </TextWrapper>
                     </Column1>
                     <Column2>
                         <ImgWrap>
-                        <Img />
+                        <Img src={img} alt={alt}/>
                         </ImgWrap>
                     
                     </Column2>

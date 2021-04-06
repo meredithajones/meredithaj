@@ -9,5 +9,9 @@ export const homeObjOne = {
     description: 'This is describing the app', 
     buttonLabel: 'Get Started',
     imgStart: false, 
-    img: require()
+    img: require('../../Images/background.jpg'),
+    alt: 'Description',
+    dark: true, 
+    primary: true,
+    darkText: false,
 }
