@@ -34,7 +34,8 @@ export const ProjectsWrapper = styled.div`
 export const ProjectsCard = styled.div`
     background: #fff;
     display: flex;
-    flex-direction: flex-start;
+    flex-direction: column;
+    justify-content: flex-start;
     align-items: center;
     border-radius: 10px;
     max-height: 340px;
