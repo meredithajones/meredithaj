@@ -1,4 +1,8 @@
 import React from 'react'
+import Icon1 from '../../Images/FFA.png';
+import {ProjectsContainer, ProjectsH1, ProjectsH2, ProjectsWrapper, 
+ProjectsCard, ProjectsIcon, ProjectsP}
+from './ProjectsElements';
 
 const Projects = () => {
     return (
@@ -11,12 +15,12 @@ const Projects = () => {
                     <ProjectsP>These are projects that I love</ProjectsP>
                 </ProjectsCard>
                 <ProjectsCard>
-                <ProjectsIcon src={Icon2} />
+                <ProjectsIcon src={Icon1} />
                     <ProjectsH2>Exercise Tracker</ProjectsH2>
                     <ProjectsP>These are projects that I love</ProjectsP>
                 </ProjectsCard>
                 <ProjectsCard>
-                <ProjectsIcon src={Icon3} />
+                <ProjectsIcon src={Icon1} />
                     <ProjectsH2>Shop & Chef</ProjectsH2>
                     <ProjectsP>These are projects that I love</ProjectsP>
                 </ProjectsCard>
