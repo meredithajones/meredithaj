@@ -1,8 +1,11 @@
 import styled from 'styled-components';
 import {MdKeyboardArrowRight, MdArrowForward} from 'react-icons/md';
+import backGround from '../../Images/background.jpg'
 
 export const HeroContainer =styled.div`
-    background: #0c0c0c;
+    background-image: url(${backGround});
+    background-size: 100%;
+    backface-visibility: 90%;
     display: flex;
     justify-content: center;
     align-items: center; 
