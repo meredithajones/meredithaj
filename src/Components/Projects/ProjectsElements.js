@@ -53,3 +53,21 @@ export const ProjectsIcon = styled.img`
     width: 160px;
     margin-bottom: 10px;
 `
+export const ProjectsH1 = styled.h1`
+    font-size: 2.5rem;
+    color: #fff;
+    margin-bottom: 64px;
+
+    @media screen and (max-width: 480px) {
+        font-size: 2rem;
+    }
+`
+export const ProjectsH2 = styled.h2`
+    font-size:1rem;
+    margin-bottom: 10px;
+`
+
+export const ProjectsP = styled.p`
+    font-size: 1rem;
+    text-align: center;
+`
