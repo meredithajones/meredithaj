@@ -33,12 +33,29 @@ export const FooterLinkItems = styled.div`
     box-sizing: border-box;
     color: #fff;
 
-    @media screen and (max-width 420px){
+    @media screen and (max-width: 420px){
         margin: 0;
         padding: 10px;
         width: 100%;
     }
 `
+export const FooterLinkTitle = styled.h1`
+    font-size: 14px;
+    margin-bottom: 16px;
+`
+
+export const FooterLink = styled(Link)`
+    color: #fff;
+    text-decoration: none;
+    margin-bottom: 0.5rem;
+    font-size: 14px;
+
+    &:hover {
+        color: #01bf71;
+        transition: 0.3s ease-out;
+    }
+`
+
 
 
 
