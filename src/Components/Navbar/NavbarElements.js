@@ -6,7 +6,6 @@ export const Nav = styled.nav`
     
     //Setting up semi-transparent navbar
     background: rgba(106, 179, 188, 0.7);
-    /* opacity:10%; */
     height: 80px;
     display: flex;
     justify-content: center;

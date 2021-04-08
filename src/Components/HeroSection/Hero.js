@@ -14,7 +14,8 @@ const HeroSection = () => {
         <HeroContainer id ="home">
             <HeroBg>
                 <HeroContent>
-                    <HeroH1>Hi! I'm Meredith, Developer with an eye for UX Design</HeroH1>
+                    <HeroH1>Hi! I'm Meredith,
+                         <br/>Developer with an eye for UX Design</HeroH1>
                         <HeroP>
                           I love solving problems with technology!  
                         </HeroP>

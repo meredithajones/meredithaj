@@ -49,12 +49,14 @@ export const HeroContent = styled.div`
 export const HeroH1 = styled.h1`
     margin-top: 40px;
     margin-left: 20px;
-    border: 1px;
+    border: 20px;
+    border-radius: 15px 50px;
     border-style: solid;
-    border-color: white;
+    /* border-color: white; */
     background-color: rgba(106, 179, 188, 0.7);
     color: #00008B;
     font-size: 48px;
+    padding: 20px;
     text-align: center;
 
     @media screen and(max-width: 768px){
