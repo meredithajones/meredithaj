@@ -23,6 +23,13 @@ export const FooterLinksContainer = styled.div`
         flex-direction: column;
     }
 `
+export const FooterLinksWrapper =styled.div`
+    display: flex;
+
+    @media screen and (max-width: 820px) {
+        flex-direction: column;
+    }
+`
 export const FooterLinkItems = styled.div`
     display: flex;
     flex-direction: column;
