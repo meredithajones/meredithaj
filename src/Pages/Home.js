@@ -5,6 +5,7 @@ import HeroSection from '../Components/HeroSection/Hero'
 import InfoSection from '../Components/InfoSection'
 import { homeObjOne, homeObjTwo, homeObjThree } from '../Components/InfoSection/Data'
 import Projects from '../Components/Projects'
+import Footer from '../Components/Footer'
 
 
 const Home = () => {
@@ -22,8 +23,8 @@ const Home = () => {
         <InfoSection {...homeObjOne}/>
         <InfoSection {...homeObjTwo}/>
         <Projects />
-        
         <InfoSection {...homeObjThree}/>
+        <Footer />
         </>
     );
 };
