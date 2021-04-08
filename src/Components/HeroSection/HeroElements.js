@@ -14,7 +14,7 @@ export const HeroContainer =styled.div`
     position: relative;
     z-index: 1;
 
-    :before{
+    :before {
         content: '';
         position: absolute;
         top: 0;
@@ -47,7 +47,13 @@ export const HeroContent = styled.div`
 
 `
 export const HeroH1 = styled.h1`
-    color: #fff;
+    margin-top: 40px;
+    margin-left: 20px;
+    border: 1px;
+    border-style: solid;
+    border-color: white;
+    background-color: rgba(106, 179, 188, 0.7);
+    color: #00008B;
     font-size: 48px;
     text-align: center;
 
@@ -57,7 +63,7 @@ export const HeroH1 = styled.h1`
 `
 export const HeroP = styled.p`
 margin-top: 24px;
-color: #fff;
+color: #00008B;
 font-size: 24px;
 text-align: center;
 max-width: 600px;

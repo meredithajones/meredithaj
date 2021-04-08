@@ -3,14 +3,16 @@ import { Link as LinkR } from 'react-router-dom';
 import { Link as LinkS } from 'react-scroll';
 
 export const Nav = styled.nav`
-    background: #000;
+    
+    //Setting up semi-transparent navbar
+    background: rgba(106, 179, 188, 0.7);
+    /* opacity:10%; */
     height: 80px;
-    // margin-top: -80px;
     display: flex;
     justify-content: center;
-    alighn-items: center;
+    align-items: center;
     font-size: 1rem;
-    positions: sticky;
+    position: sticky;
     top: 0;
     z-index: 10;
     `;
@@ -27,7 +29,7 @@ export const Nav = styled.nav`
 
     //Setting up "LinkR" to work with react-router
     export const NavLogo = styled(LinkR)`
-    color: red;
+    color: #00008B;
     justify-self: flex-start;
     cursor: pointer;
     font-size: 1.5rem;
@@ -71,7 +73,7 @@ export const Nav = styled.nav`
     
     `
    export const NavLinks = styled(LinkS)`
-        color: #fff;
+        color: #00008B;
         display: flex;
         align-items: center;
         text-decoration: none;

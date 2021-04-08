@@ -10,7 +10,7 @@ const Navbar = ({ toggle }) => {
                   <NavLogo to='/'>
                       That Link
                   </NavLogo>
-                  <h1> Hellloo </h1>
+                  <h1> </h1>
                   <MobileIcon onClick= {toggle}>
                       <FaBars />
                   </MobileIcon>
