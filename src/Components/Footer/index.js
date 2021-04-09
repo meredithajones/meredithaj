@@ -1,7 +1,8 @@
 import React from 'react'
 import { FaGithub, FaLinkedin } from 'react-icons/fa';
 import {FooterContainer, FooterWrap, FooterLinksWrapper,
-FooterLinksContainer, FooterLinkItems, FooterLinkTitle, FooterLink }
+FooterLinksContainer, FooterLinkItems, FooterLinkTitle, FooterLink, 
+SocialIconLink, SocialIcons, SocialLogo, SocialSection, SocialWrap, WebsiteRights }
 from './FooterElements';
 
 const Footer = () => {
@@ -27,7 +28,7 @@ const Footer = () => {
                 <SocialSection>
                     <SocialWrap>
                         <SocialLogo to= '/'>
-                            Logo
+                            Meredith Jones
                         </SocialLogo>
                         <WebsiteRights>
                             {/* setting up the copyright year to automatically update */}
