@@ -1,4 +1,5 @@
 import React from 'react'
+import { FaGithub, FaLinkedin } from 'react-icons/fa';
 import {FooterContainer, FooterWrap, FooterLinksWrapper,
 FooterLinksContainer, FooterLinkItems, FooterLinkTitle, FooterLink }
 from './FooterElements';
@@ -33,8 +34,13 @@ const Footer = () => {
                             Copyright © {new Date().getFullYear()}
                         </WebsiteRights>
                         <SocialIcons>
-                            <SocialIconLink>
-                                
+                            <SocialIconLink href= "//www.linkedin.com/in/meredithjones4747/" target= "_blank"
+                            aria-label ="Linkedin">
+                            <FaLinkedin/>
+                            </SocialIconLink>
+                            <SocialIconLink href= "//www.github.com/meredithajones" target= "_blank"
+                            aria-label ="Github">
+                            <FaGithub/>
                             </SocialIconLink>
                         </SocialIcons>
                     </SocialWrap>
