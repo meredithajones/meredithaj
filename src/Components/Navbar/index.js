@@ -1,11 +1,12 @@
-import React, {useState} from 'react'
+import React, {useState, useEffect} from 'react'
 import {FaBars} from 'react-icons/fa'
+import {IconContext} from 'react-icons/lib'
 import Logo from '../../Images/Initials.png'
 import {Nav, NavbarContainer,  
     MobileIcon, NavMenu, NavLogo, NavItem, NavLinks, Img } from './NavbarElements'
 
 const Navbar = ({ toggle }) => {
-    const [scrollNav, setScrollNav] = useSate(false)
+    const [scrollNav, setScrollNav] = useState(false)
     
     const changeNav =() => {
         if(window.scrollY >= 80) {
@@ -14,10 +15,15 @@ const Navbar = ({ toggle }) => {
             setScrollNav(false)
         }
     }
+
+    useEffect(() => {
+        window.addEventListener('scroll', changeNav)
+    },[])
     
     return (
         <>
-          <Nav>
+        <IconContext.Provider value={{ color: '#fff'}}>
+          <Nav scrollNav={scrollNav}>
               <NavbarContainer>
                   <NavLogo to='/'>
                   <Img src={Logo} alt="" />
@@ -42,6 +48,7 @@ const Navbar = ({ toggle }) => {
                   </NavMenu>
               </NavbarContainer>
           </Nav>
+        </IconContext.Provider>
             
         </>
     );
