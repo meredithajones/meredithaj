@@ -2,7 +2,8 @@ import styled from 'styled-components'
 
 export const InfoContainer = styled.div`
     color: #fff;
-    background: ${({lightBg}) => (lightBg ? '#f9f9f9' : '#010606')}
+    /* Setting up background color, if LightBg is true, background is white, if false, it will be midnight blue */
+    background: ${({lightBg}) => (lightBg ? '#f9f9f9' : '#191970')}
     ;
 
     @media screen and (max-width: 768px) {

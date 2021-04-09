@@ -18,7 +18,7 @@ export const homeObjOne = {
 
 export const homeObjTwo = {
     id: 'projects', 
-    lightBg: false,
+    lightBg: true,
     lightText: false,
     lightTextDesc: true,
     topLine: 'Take A Look At Some Of My Recent Projects',
@@ -31,6 +31,7 @@ export const homeObjTwo = {
     dark: true, 
     primary: true,
     darkText: false,
+     
 }
 
 export const homeObjThree = {

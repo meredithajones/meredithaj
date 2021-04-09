@@ -1,10 +1,20 @@
-import React from 'react'
+import React, {useState} from 'react'
 import {FaBars} from 'react-icons/fa'
-import Logo from '../../Images/logo.png'
+import Logo from '../../Images/Initials.png'
 import {Nav, NavbarContainer,  
     MobileIcon, NavMenu, NavLogo, NavItem, NavLinks, Img } from './NavbarElements'
 
 const Navbar = ({ toggle }) => {
+    const [scrollNav, setScrollNav] = useSate(false)
+    
+    const changeNav =() => {
+        if(window.scrollY >= 80) {
+            setScrollNav(true)
+        } else {
+            setScrollNav(false)
+        }
+    }
+    
     return (
         <>
           <Nav>

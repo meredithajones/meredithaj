@@ -17,7 +17,7 @@ const HeroSection = () => {
                     <HeroH1>Hi! I'm Meredith,
                          <br/>Mission-driven Developer</HeroH1>
                         <HeroP>
-                         Let's team up to solve problems using Tech!  
+                         Let's team up to create problem-solving applications!  
                         </HeroP>
                         <HeroBtnWrapper></HeroBtnWrapper>
                         <Button to="signup" 
