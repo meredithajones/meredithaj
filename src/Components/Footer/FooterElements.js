@@ -62,7 +62,28 @@ export const FooterLink = styled(Link)`
         transition: 0.3s ease-out;
     }
 `
+export const SocialSection = styled.section `
+    max-width: 1000px;
+    width: 100%;
+`
 
+export const SocialWrap = styled.div`
+    display: flex;
+    justify-content: space-space-between;
+    align-items: center;
+    max-width: 1100px;
+    margin: 40px auto 0 auto;
 
+    @media screen and (max-width: 820px) {
+        flex-direction: column;
+    }
+`
 
+export const `
+
+`
+
+export const `
+
+`
 
