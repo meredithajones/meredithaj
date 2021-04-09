@@ -23,6 +23,22 @@ const Footer = () => {
                         </FooterLinkItems>
                     </FooterLinksWrapper>
                 </FooterLinksContainer>
+                <SocialSection>
+                    <SocialWrap>
+                        <SocialLogo to= '/'>
+                            Logo
+                        </SocialLogo>
+                        <WebsiteRights>
+                            {/* setting up the copyright year to automatically update */}
+                            Copyright © {new Date().getFullYear()}
+                        </WebsiteRights>
+                        <SocialIcons>
+                            <SocialIconLink>
+                                
+                            </SocialIconLink>
+                        </SocialIcons>
+                    </SocialWrap>
+                </SocialSection>
             </FooterWrap>
             
         </FooterContainer>
