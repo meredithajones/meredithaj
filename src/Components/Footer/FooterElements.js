@@ -79,11 +79,26 @@ export const SocialWrap = styled.div`
     }
 `
 
-export const `
-
+export const SocialLogo = styled(Link) `
+    color: #fff;
+    justify-self: start;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 1.5rem;
+    display: flex;
+    align-items: center;
+    margin-bottom: 16px;
+    font-weight: bold;
 `
 
-export const `
-
+export const WebsiteRights =styled.small`
+    color: #fff;
+    margin-bottom: 16px;
 `
 
+export const SocialIcons =styled.div`
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 240px;
+`
