@@ -112,3 +112,8 @@ export const NavBtnLink = styled(LinkR)`
             color: #010606;
         }
 `
+    export const Img = styled.img`
+        max-height: 100px;
+        margin-left: -100px;
+        
+    `

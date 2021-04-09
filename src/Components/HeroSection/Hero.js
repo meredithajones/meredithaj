@@ -15,9 +15,9 @@ const HeroSection = () => {
             <HeroBg>
                 <HeroContent>
                     <HeroH1>Hi! I'm Meredith,
-                         <br/>Developer with an eye for UX Design</HeroH1>
+                         <br/>Mission-driven Developer</HeroH1>
                         <HeroP>
-                          I love solving problems with technology!  
+                         Let's team up to solve problems using Tech!  
                         </HeroP>
                         <HeroBtnWrapper></HeroBtnWrapper>
                         <Button to="signup" 
@@ -26,7 +26,7 @@ const HeroSection = () => {
                         primary= 'true'
                         dark = 'true'
                         > 
-                            Get Started {hover ? <ArrowForward /> : <ArrowRight />}
+                            Take a Look at a few of my recent projects below {hover ? <ArrowForward /> : <ArrowRight />}
                         </Button>
                 </HeroContent>
             </HeroBg>

@@ -47,16 +47,17 @@ export const HeroContent = styled.div`
 
 `
 export const HeroH1 = styled.h1`
-    margin-top: 40px;
-    margin-left: 20px;
-    border: 20px;
+    margin-top: 100px;
+    margin-left: 140px;
+    display: flex;
+    border: 15px;
     border-radius: 15px 50px;
     border-style: solid;
     /* border-color: white; */
-    background-color: rgba(106, 179, 188, 0.7);
+    background-color: rgba(106, 179, 188, 0.75);
     color: #00008B;
     font-size: 48px;
-    padding: 20px;
+    padding: 40px;
     text-align: center;
 
     @media screen and(max-width: 768px){
