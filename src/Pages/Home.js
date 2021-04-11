@@ -7,6 +7,7 @@ import { homeObjOne, homeObjTwo, homeObjThree } from '../Components/InfoSection/
 import Projects from '../Components/Projects'
 import SideButton from '../Components/SideButton'
 import Footer from '../Components/Footer'
+import { SideButtonWrapper } from '../Components/SideButton/SideButtonElements'
 
 
 const Home = () => {
@@ -17,7 +18,10 @@ const Home = () => {
     }
 
     return (
-        <>     
+        <>   
+        <SideButtonWrapper>
+        <SideButton />
+        </SideButtonWrapper>  
         <Sidebar isOpen={isOpen} toggle= {toggle} />
         <Navbar toggle={toggle} />
         <HeroSection />
