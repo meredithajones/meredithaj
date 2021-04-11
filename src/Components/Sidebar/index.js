@@ -22,11 +22,6 @@ const Sidebar = ({isOpen, toggle}) => {
                 <SidebarLink to="contact" onClick={toggle}>
                     Contact</SidebarLink>
         </SidebarMenu>
-        <SideBtnWrap>
-            <SidebarRoute to='/signin'>
-                Sign In
-            </SidebarRoute>
-        </SideBtnWrap>
       </SidebarWrapper>
     </SidebarContainer>
   );

@@ -8,7 +8,7 @@ export const SidebarContainer = styled.aside`
     z-index: 999;
     width: 100%;
     height: 100%;
-    background: #0d0d0d;
+    background: #191970;
     display: grid;
     align-items: center;
     top: 0;
@@ -65,10 +65,7 @@ export const SidebarLink = styled(LinkS)`
     }
     `
 
-    export const SideBtnWrap = styled.div`
-    display: flex;
-    justify-content: center;
-    `
+
 
     export const SidebarRoute = styled(LinkR)`
     border-radius: 50px;

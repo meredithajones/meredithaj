@@ -32,15 +32,11 @@ export const Nav = styled.nav`
 
     //Setting up "LinkR" to work with react-router
     export const NavLogo = styled(LinkR)`
-    color: #00008B;
     justify-self: flex-start;
     cursor: pointer;
-    font-size: 1.5rem;
     display: flex;
     align-items: center;
-    margin-left: .5px;
-    font-weight: bold;
-    text-decoration: none;
+    margin-left: 10px;
     `;
 
     export const MobileIcon = styled.div`
