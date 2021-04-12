@@ -84,6 +84,12 @@ export const Nav = styled.nav`
             border-bottom: 3px solid #01bf71;
         }
 
+        &:hover{
+
+        color:#fff; 
+        border-bottom: 8px solid #fff;
+        }
+
    `;
 export const NavBtn = styled.nav`
         display: flex;
