@@ -1,0 +1,13 @@
+.socialLink{
+    color: #00008B;
+}
+
+.SideNav a:hover {
+    color: rgb(37, 93, 84);
+}
+
+.SideNav a, a:focus, a:active {
+      
+      color: rgb(43, 59, 43);
+      margin: auto;
+}

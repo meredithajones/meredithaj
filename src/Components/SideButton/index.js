@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
+import './SideButton.css';
 
 const SideButton = () => {
   return (
@@ -10,7 +11,7 @@ const SideButton = () => {
         target="_blank"
         rel="noreferrer"
       >
-        <i className="">
+        <i className="socialLink">
           <FaLinkedin />
         </i>
       </a>
@@ -19,7 +20,7 @@ const SideButton = () => {
         target="_blank"
         rel="noreferrer"
       >
-        <i className="">
+        <i className="socialLink">
           <FaGithub />
         </i>
       </a>

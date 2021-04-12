@@ -10,11 +10,11 @@ export const SideButton = styled(Link)`
   float: right;
   width: 60px;
   height: 120px;
-  background: rgb(180, 236, 214);
   font-size: 2.25rem;
+  color: #008080;
+  /* color: #00008B; */
   border-radius: 15px;
   box-shadow: 0px 0px 3px 4px #ccc;
-  color: rgb(0 0 0 / 45%);
 
   &:hover {
     transition: all 0.2s ease-in-out;
@@ -32,8 +32,12 @@ export const SideButtonWrapper = styled.div`
   height: 120px;
   background: rgb(180, 236, 214);
   font-size: 2.25rem;
+  color: #00008B;
+  color: #008080;
+  padding-top: 17px;
+  padding-left: 9px;
+  padding-bottom: 17px;
   border-radius: 15px;
   box-shadow: 0px 0px 3px 4px #ccc;
-  color: rgb(0 0 0 / 45%);
   z-index: 15;
 `;
