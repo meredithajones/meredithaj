@@ -22,4 +22,18 @@ function ContactMe() {
         });
       };
 
+      const toastifyError = () => {
+        toast('Oh no! Something went wrong. Please reach out directly at meredithjonesp@gmail.com', {
+          position: 'bottom-right',
+          autoClose: 5000,
+          hideProgressBar: true,
+          closeOnClick: true,
+          pauseOnHover: true,
+          draggable: false,
+          className: 'submit-feedback success',
+          toastId: 'notifyToast'
+        });
+      };
+    }
+
       export default ContactMe;
