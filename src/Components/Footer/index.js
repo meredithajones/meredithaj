@@ -11,7 +11,7 @@ const Footer = () => {
             <FooterWrap>
                 <FooterLinksContainer>
                     <FooterLinksWrapper>
-                        <FooterLinkItems>
+                        {/* <FooterLinkItems>
                             <FooterLinkTitle>This is the title for the Footer</FooterLinkTitle>
                                 <FooterLink to="/">Home</FooterLink>
                                 <FooterLink to="/">Linkedin</FooterLink>
@@ -22,12 +22,12 @@ const Footer = () => {
                                 <FooterLink to="/">Home</FooterLink>
                                 <FooterLink to="/">Linkedin</FooterLink>
                                 <FooterLink to="/">Github</FooterLink>
-                        </FooterLinkItems>
+                        </FooterLinkItems> */}
                     </FooterLinksWrapper>
                 </FooterLinksContainer>
                 <SocialSection>
                     <SocialWrap>
-                        <SocialLogo to= '/'>
+                        <SocialLogo to= "home">
                             Meredith Jones
                         </SocialLogo>
                         <WebsiteRights>
