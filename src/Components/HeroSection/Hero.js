@@ -20,7 +20,7 @@ const HeroSection = () => {
                          Let's team up to create problem-solving applications!  
                         </HeroP>
                         <HeroBtnWrapper></HeroBtnWrapper>
-                        <Button to="signup" 
+                        <Button to="projects" 
                         onMouseEnter= {onHover}
                         onMouseLeave= {onHover}
                         primary= 'true'

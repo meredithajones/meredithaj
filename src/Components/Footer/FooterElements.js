@@ -99,6 +99,14 @@ export const WebsiteRights =styled.small`
     padding-inline-start: 40px;
 `
 
+export const CreatedWith =styled.small`
+    color: #fff;
+    margin-bottom: 36px;
+    align-items: center;
+    justify-content: space-between;
+    padding-inline-start: 40px;
+`
+
 export const SocialIcons =styled.div`
     display: flex;
     justify-content: space-between;

@@ -1,7 +1,7 @@
 import React from 'react'
-import { FaGithub, FaLinkedin } from 'react-icons/fa';
+import { FaGithub, FaLinkedin, FaReact } from 'react-icons/fa';
 import {FooterContainer, FooterWrap, FooterLinksWrapper,
-FooterLinksContainer, FooterLinkItems, FooterLinkTitle, FooterLink, 
+FooterLinksContainer, FooterLinkItems, FooterLinkTitle, FooterLink, CreatedWith,
 SocialIconLink, SocialIcons, SocialLogo, SocialSection, SocialWrap, WebsiteRights }
 from './FooterElements';
 
@@ -34,6 +34,7 @@ const Footer = () => {
                             {/* setting up the copyright year to automatically update */}
                             Copyright © {new Date().getFullYear()}
                         </WebsiteRights>
+                        <CreatedWith>Website Created with React <FaReact/></CreatedWith>
                         <SocialIcons>
                             <SocialIconLink href= "//www.linkedin.com/in/meredithjones4747/" target= "_blank"
                             aria-label ="Linkedin">
