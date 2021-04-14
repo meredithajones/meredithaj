@@ -1,5 +1,6 @@
 import React from 'react'
 import Icon1 from '../../Images/FFA.png';
+import { motion, useCycle } from 'framer-motion';
 import {ProjectsContainer, ProjectsH1, ProjectsH2, ProjectsWrapper, 
 ProjectsCard, ProjectsIcon, ProjectsP}
 from './ProjectsElements';
