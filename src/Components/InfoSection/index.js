@@ -9,10 +9,11 @@ import {
   TextWrapper,
   TopLine,
   Heading,
-  SubTitle,
+  SubTitle, 
   BtnWrap,
   Img,
-  ImgWrap
+  ImgWrap,
+  Phone
 } from "./InfoElements";
 
 const InfoSection = ({
@@ -25,6 +26,7 @@ const InfoSection = ({
   darkText,
   description,
   buttonLabel,
+  phoneNumber, 
   img,
   alt,
   primary, 
@@ -41,6 +43,7 @@ const InfoSection = ({
                 <TopLine>{topLine}</TopLine>
                 <Heading lightText={lightText}>{headline}</Heading>
                 <SubTitle darkText={darkText}>{description}</SubTitle>
+                <Phone>{phoneNumber}</Phone>
                 <BtnWrap>
                   <Button to="home"
                     smooth={true}

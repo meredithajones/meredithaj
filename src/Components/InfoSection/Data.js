@@ -1,3 +1,5 @@
+import { ProjectsH2 } from '../Projects/ProjectsElements'
+
 //Setting up data as a reusable component
 export const homeObjOne = {
     id: 'about', 
@@ -39,12 +41,13 @@ export const homeObjThree = {
     lightBg: false,
     lightText: true,
     lightTextDesc: true,
-    topLine: 'Premium Bank',
-    headline: 'Unlimited Transactions',
-    description: 'This is describing the app', 
+    topLine: '',
+    headline: 'Get In Touch!',
+    description: 'Email me: mjonesp@gmail.com',
+    phoneNumber: 'Give me a call:  (267)-819-2612 ' ,
     buttonLabel: 'Get Started',
     imgStart: true, 
-    img: require ('../../Images/demo.svg').default ,
+    img: require ('../../Images/contact.svg').default ,
     alt: 'Description',
     dark: true, 
     primary: true,

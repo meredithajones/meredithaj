@@ -66,7 +66,7 @@ export const InfoRow = styled.div `
         font-size: 48px;
         line-height: 1.1;
         font-weight: 600;
-        color: ${({lightText}) => (lightText ? 'red' : '#010606')
+        color: ${({lightText}) => (lightText ? 'white' : '#010606')
     };
 
     @media screen and (max-width: 480px) {
@@ -76,8 +76,16 @@ export const InfoRow = styled.div `
     export const SubTitle = styled.p`
         max-width: 440px;
         margin-bottom: 35px;
-        font-size: 18px;
-        line-height: 24px;
+        font-size: 24px;
+        line-height: 10px;
+        color: ${({darkText}) => (darkText ? '#010606' : "#fff")};
+    `
+
+    export const Phone = styled.p`
+        max-width: 440px;
+        margin-bottom: 35px;
+        font-size: 22px;
+        line-height: 10px;
         color: ${({darkText}) => (darkText ? '#010606' : "#fff")};
     `
 
