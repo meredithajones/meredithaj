@@ -4,7 +4,7 @@ import backGround from '../../Images/background.jpg'
 
 export const HeroContainer =styled.div`
     background-image: url(${backGround});
-    background-size: 100%;
+    background-size: 105%;
     backface-visibility: 90%;
     display: flex;
     justify-content: center;

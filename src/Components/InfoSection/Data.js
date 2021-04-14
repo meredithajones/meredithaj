@@ -48,7 +48,7 @@ export const homeObjThree = {
     buttonLabel: 'Get Started',
     imgStart: true, 
     img: require ('../../Images/contact.svg').default ,
-    alt: 'Description',
+    alt: 'Contact Information for Meredith Jones',
     dark: true, 
     primary: true,
     darkText: false,
