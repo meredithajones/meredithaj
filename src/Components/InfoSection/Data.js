@@ -43,8 +43,9 @@ export const homeObjThree = {
     lightTextDesc: true,
     topLine: '',
     headline: 'Get In Touch!',
-    description: 'Email me: mjonesp@gmail.com',
-    phoneNumber: 'Give me a call:  (267)-819-2612 ' ,
+    description:  
+    <label for="Email" className="form-label"> Email: <a href="mailto:meredithjonesp@gmail.com" className="linkColor">mjonesp@gmail.com</a></label> ,
+    phoneNumber: <a href= "tel: +1-267-819-2612"> Give me a call:  (267)-819-2612  </a>,
     buttonLabel: 'Get Started',
     imgStart: true, 
     img: require ('../../Images/contact.svg').default ,
