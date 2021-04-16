@@ -48,7 +48,6 @@ const Footer = () => {
                     </SocialWrap>
                 </SocialSection>
             </FooterWrap>
-            
         </FooterContainer>
     )
 }

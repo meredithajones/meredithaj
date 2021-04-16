@@ -1,4 +1,5 @@
 import styled from 'styled-components'
+import { Link as LinkR } from 'react-router-dom';
 
 export const ProjectsContainer = styled.div`
     height: 800px;
@@ -31,7 +32,8 @@ export const ProjectsWrapper = styled.div`
     }
 `
 
-export const ProjectsCard = styled.div`
+
+export const ProjectsCard = styled.button`
     background: #fff;
     display: flex;
     flex-direction: column;
@@ -42,12 +44,15 @@ export const ProjectsCard = styled.div`
     padding: 30px;
     box-shadow: 0 1px 3px rgba(0,0,0,0.2);
     transition: all 0.2s ease-in-out;
+    
 
     &:hover{
-        transform: scale(1.02);
+        transform: scale(10.02);
         transition: all 0.2s ease-in-out;
         cursor: pointer;
     }
+
+        
 `
 export const ProjectsIcon = styled.img`
     height: 160px;
