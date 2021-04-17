@@ -6,31 +6,43 @@ import { AnimateSharedLayout, motion, useCycle } from 'framer-motion';
 import {ProjectsContainer, ProjectsH1, ProjectsH2, ProjectsWrapper, 
 ProjectsCard, ProjectsIcon, ProjectsP}
 from './ProjectsElements';
-import FFA from '../../Pages/FridgeForAll/FridgeForAll';
-import { Icon, CloseIcon } from '../Sidebar/SidebarElements';
+import FFA from '../ModalComponents/FridgeForAll/FridgeForAll';
+import { CloseIcon } from '../Sidebar/SidebarElements';
+import { FaChevronDown } from 'react-icons/fa';
 
-const Projects = ({isOpen, toggle}) => {
+const Projects = ({ isOpen, toggle }) => {
+
+    const openModal = () => {
+        console.log( "Modal is open")
+    };
+
     return (
-        <ProjectsContainer id="projects" isOpen={isOpen} onClick={toggle}>
+        <ProjectsContainer >
             <ProjectsH1>My Projects</ProjectsH1>
             <ProjectsWrapper>
-                <ProjectsCard >
-                <Icon onClick={toggle}>
-                    <CloseIcon />
-                </Icon>
+                <ProjectsCard onClick= {openModal}>
                 <ProjectsIcon src={Icon1} />
                     <ProjectsH2>Fridge For All</ProjectsH2>
                     <ProjectsP>An inventory tracker for Philly Community Fridges</ProjectsP>
+                    <FaChevronDown onClick={toggle}>
+                    <CloseIcon />
+                </FaChevronDown>
                 </ProjectsCard>
-                <ProjectsCard>
+                <ProjectsCard id="projects" isOpen={isOpen} onClick={toggle}>
                 <ProjectsIcon src={Icon2} />
                     <ProjectsH2>Happy Trails</ProjectsH2>
                     <ProjectsP>An Application to match hikers with trails</ProjectsP>
+                    <FaChevronDown onClick={toggle}>
+                    <CloseIcon />
+                </FaChevronDown>
                 </ProjectsCard>
-                <ProjectsCard>
+                <ProjectsCard id="projects" isOpen={isOpen} onClick={toggle}>
                 <ProjectsIcon src={Icon1} />
                     <ProjectsH2>Shop & Chef</ProjectsH2>
                     <ProjectsP>These are projects that I love</ProjectsP>
+                    <FaChevronDown onClick={toggle}>
+                    <CloseIcon />
+                </FaChevronDown>
                 </ProjectsCard>
             </ProjectsWrapper>
         </ProjectsContainer>

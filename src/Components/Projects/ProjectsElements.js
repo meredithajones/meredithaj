@@ -47,7 +47,7 @@ export const ProjectsCard = styled.button`
     
 
     &:hover{
-        transform: scale(10.02);
+        transform: scale(1.04);
         transition: all 0.2s ease-in-out;
         cursor: pointer;
     }
