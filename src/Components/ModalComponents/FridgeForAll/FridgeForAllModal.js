@@ -9,9 +9,11 @@ export const FridgeForAllModal = (props) => {
       <span classname="close-modal-btn">X</span>
       <div classname="modal-body">
         <h4>Modal Header</h4>
-        <p>Lorum Ipsom</p>
+        <p>Lorum  </p>
       </div>
-      <div className="modal-footer"></div>
+      <div className="modal-footer">
+        <button className= "btn-cancel"></button>
+      </div>
     <div className={"modal-backdrop"}/>
     <div className={"modal-box"}></div>
         {props.children}
