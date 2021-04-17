@@ -1,13 +1,14 @@
-import React from 'react';
+import React from "react";
 // import { Img } from '../../../Images/FFA.png';
 
-const FridgeForAll = () => {
-    return (
-        <div>
-            {/* <Img /> */}
-            <h1>"This is all about Fridge For All!!!"</h1>
-        </div>
-    )
-}
+const FridgeForAllModal = (props) => {
+  return (
+    <div className={"modal-wrapper"}>
+        <div className={"modal-backdrop"}/>
+      <div className={"modal-box"}></div>
+        {props.children}
+    </div>
+  );
+};
 
-export default FridgeForAll;
+export default FridgeForAllModal;

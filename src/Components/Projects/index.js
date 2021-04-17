@@ -9,10 +9,11 @@ from './ProjectsElements';
 import FFA from '../ModalComponents/FridgeForAll/FridgeForAll';
 import { CloseIcon } from '../Sidebar/SidebarElements';
 import { FaChevronDown } from 'react-icons/fa';
+// import { FridgeForAllModal } from '../ModalComponents/FridgeForAll';
 
 const Projects = ({ isOpen, toggle }) => {
 
-    const openModal = () => {
+    const openFridgeForAllModal = () => {
         console.log( "Modal is open")
     };
 
@@ -20,11 +21,12 @@ const Projects = ({ isOpen, toggle }) => {
         <ProjectsContainer >
             <ProjectsH1>My Projects</ProjectsH1>
             <ProjectsWrapper>
-                <ProjectsCard onClick= {openModal}>
+                <ProjectsCard onClick= {openFridgeForAllModal}>
                 <ProjectsIcon src={Icon1} />
                     <ProjectsH2>Fridge For All</ProjectsH2>
                     <ProjectsP>An inventory tracker for Philly Community Fridges</ProjectsP>
                     <FaChevronDown onClick={toggle}>
+                        
                     <CloseIcon />
                 </FaChevronDown>
                 </ProjectsCard>
