@@ -6,10 +6,10 @@ import { AnimateSharedLayout, motion, useCycle } from 'framer-motion';
 import {ProjectsContainer, ProjectsH1, ProjectsH2, ProjectsWrapper, 
 ProjectsCard, ProjectsIcon, ProjectsP}
 from './ProjectsElements';
-import FFA from '../ModalComponents/FridgeForAll/FridgeForAll';
+import FFA from '../ModalComponents/FridgeForAll/FridgeForAllModal';
 import { CloseIcon } from '../Sidebar/SidebarElements';
 import { FaChevronDown } from 'react-icons/fa';
-// import { FridgeForAllModal } from '../ModalComponents/FridgeForAll';
+import { FridgeForAllModal } from '../ModalComponents/FridgeForAll/FridgeForAllModal.js';
 
 const Projects = ({ isOpen, toggle }) => {
 
@@ -22,6 +22,7 @@ const Projects = ({ isOpen, toggle }) => {
             <ProjectsH1>My Projects</ProjectsH1>
             <ProjectsWrapper>
                 <ProjectsCard onClick= {openFridgeForAllModal}>
+                    <FridgeForAllModal />
                 <ProjectsIcon src={Icon1} />
                     <ProjectsH2>Fridge For All</ProjectsH2>
                     <ProjectsP>An inventory tracker for Philly Community Fridges</ProjectsP>
