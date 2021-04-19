@@ -1,24 +1,8 @@
-import React from "react";
+import React, {forwardRef, useImperativeHandle} from "react";
 import { FaTimes } from "react-icons/fa";
 
-export const FridgeForAllModal = (props) => {
-  return (
-    <div className={"modal-wrapper"}>
-      <div className={"modal-header"}></div>
-      <p></p>
-      <span classname="close-modal-btn">X</span>
-      <div classname="modal-body">
-        <h4>Modal Header</h4>
-        <p>Lorum  </p>
-      </div>
-      <div className="modal-footer">
-        <button className= "btn-cancel"></button>
-      </div>
-    <div className={"modal-backdrop"}/>
-    <div className={"modal-box"}></div>
-        {props.children}
-    </div>
-  );
-};
+export const FridgeForAllModal = () => {
+  
+
 
 export default FridgeForAllModal;

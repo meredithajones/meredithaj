@@ -7,7 +7,7 @@
     left: 0;
     right: 0;
     width: 80%;
-    max-width: 800%;
+    max-width: 900px;
     margin: 4rem auto;
 }
 
@@ -20,6 +20,19 @@
     right: 0;
     z-index: 100;
     background-color: rbga(0,0,0, 0.30);
+}
+
+.modal-box{
+    position: relative;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    height: 70%;
+    width: 60%;
+    overflow-y: auto;
+    background-color: white;
+    box-shadow: 0 0 10px rbga(0,0,0. 0.25);
+    z-index: 100;
 }
 
 .modal-header{

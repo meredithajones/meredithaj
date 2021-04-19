@@ -23,7 +23,9 @@ const Projects = ({ isOpen, toggle }) => {
             <ProjectsWrapper>
                 <ProjectsCard onClick= {openFridgeForAllModal}>
                     <FridgeForAllModal />
-                <ProjectsIcon src={Icon1} />
+                    <h2>Modal Header</h2>
+                    <p>Project Description</p>
+                <ProjectsIcon src={Icon1} />});
                     <ProjectsH2>Fridge For All</ProjectsH2>
                     <ProjectsP>An inventory tracker for Philly Community Fridges</ProjectsP>
                     <FaChevronDown onClick={toggle}>
