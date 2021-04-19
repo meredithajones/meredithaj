@@ -1,11 +1,6 @@
-import React from 'react'
-
-const Accordian = () => {
-    return (
-        <div>
-            Here's The Accordian!!!!
-        </div>
-    )
-}
-
-export default Accordian;
+export const Data = [
+    {
+     Heading: 'Fridge For All', 
+     Body: 'Description of the App',
+    }
+]
