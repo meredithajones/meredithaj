@@ -21,13 +21,13 @@ const Projects = ({ isOpen, toggle }) => {
             <ProjectsH1>My Projects</ProjectsH1>
             <ProjectsWrapper>
                 <ProjectsCard >
+                <Accordian />
                     <h2>Modal Header</h2>
                     <p>Project Description</p>
                 <ProjectsIcon src={Icon1} />
                     <ProjectsH2>Fridge For All</ProjectsH2>
                     <ProjectsP>An inventory tracker for Philly Community Fridges</ProjectsP>
                     <FaChevronDown onClick={toggle}>
-                    <Accordian />
                     <CloseIcon />
                 </FaChevronDown>
                 </ProjectsCard>
