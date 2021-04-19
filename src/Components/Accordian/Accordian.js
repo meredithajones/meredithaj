@@ -2,11 +2,10 @@ import React, {useState} from 'react'
 import styled from 'styled-components'
 import {IconContext} from 'react-icons'
 import { FiPlus, FiMinus} from 'react-icons/fi'
-import { Data } from './data'
+import { Data } from './Data'
 
 const AccordianSection = styled.div`
-    position: relative;
-    z-index: 999;
+    z-index: 100;
     width: 100%;
     height: 100%;
     background: #191970;
@@ -14,9 +13,8 @@ const AccordianSection = styled.div`
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    top: 0;
-    left: 0;
     transition: 0.3s ease-in-out;
+    position: relative;
 
 `;
 
@@ -28,20 +26,45 @@ const Container = styled.div `
 `;
 
 const Wrap = styled.div `
+    z-index: 100;
     background: #272727;
     color: #fff;
     display: flex;
-    justify-content: space-space-between;
+    justify-content: space-between;
     align-items: center;
+    width: 100%;
     text-align: center;
     cursor: pointer;
+
+    span{
+        margin-right: 1.5rem;
+    }
 `;
 
-const Accordian = () => {
-    const[clicked, setClicked] =useState(false)
+const Dropdown = styled.div `
+    z-index: 100;
+    background: #1c1c1c;
+    color: #00ffb9;
+    width: 100%;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid;
 
-    const toggle = index =>{
-        
+`
+
+export const Accordian = () => {
+    const[clicked, setClicked] =useState(false);
+
+    const toggle = index => {
+        if(clicked === index) {
+            //if clicked is already active, then close it.
+            return setClicked(null);
+        }
+        setClicked(index)
+
     }
 
     return (
@@ -52,12 +75,17 @@ const Accordian = () => {
                 {Data.map((item, index) => {
                     return (
                         <>
-                        <Wrap>
+                        <Wrap onclick={() => toggle(index)} key= {index}>
                         <h1>{item.Heading}</h1>
+                        <span>{clicked === index ? <FiMinus/> : <FiPlus />}</span>
                         </Wrap>
+                        {clicked === index ?(
+                            <Dropdown>
                         <p>{item.Body}</p>
-                        </>
+                            </Dropdown>
+                        ) : null}
 
+                        </>
                     );
                 })}
             </Container>
